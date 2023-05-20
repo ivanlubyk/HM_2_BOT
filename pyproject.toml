@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "myhwweb2"
+version = "0.1.0"
+description = ""
+authors = ["Іван Лубик <126516121+ivanlubyk@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+py7zr = "^0.20.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
