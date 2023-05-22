@@ -24,5 +24,5 @@ COPY . .
 EXPOSE 5000
 
 # Запустимо нашу програму всередині контейнера
-ENTRYPOINT ["python", "start_bot.py"]
+ENTRYPOINT ["python", "bot_folder/start_bot.py"]
 # запуск для взаємодії - docker run -it my_home_web_2.1
